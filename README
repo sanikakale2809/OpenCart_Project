@@ -1,17 +1,17 @@
 # 01 Manual Testing – OpenCart Project
 
-## Project Overview
+#Project Overview
 
 This folder contains the **Manual Testing documentation and testing artifacts** created for the OpenCart E-commerce application.
 
 The project covers the complete manual testing process, starting from understanding the requirements and preparing the test plan to test case execution, defect reporting, and requirement traceability.
 
-## Application Under Test
+#Application Under Test
 
-**Application:** OpenCart E-commerce Website
-**Testing Type:** Manual Testing
+Application:OpenCart E-commerce Website
+Testing Type:Manual Testing
 
-## Testing Activities
+#Testing Activities
 
 The following activities were performed as part of this project:
 
@@ -24,7 +24,7 @@ The following activities were performed as part of this project:
 * Defect Identification and Reporting
 * Test Result Documentation
 
-## Testing Areas
+#Testing Areas
 
 The test documentation covers important OpenCart functionalities such as:
 
@@ -46,7 +46,7 @@ The test documentation covers important OpenCart functionalities such as:
 * Return Request
 * Other e-commerce functionalities
 
-## Project Documents
+#Project Documents
 
 | File                                         | Description                                                        |
 | -------------------------------------------- | ------------------------------------------------------------------ |
@@ -58,7 +58,7 @@ The test documentation covers important OpenCart functionalities such as:
 | `OpenCart Test Execution.xlsx`               | Test execution results and test status                             |
 | `OpenCart-Bug Report.xlsx`                   | Defects identified during testing                                  |
 
-## Test Case Design
+#Test Case Design
 
 Test cases were created to validate:
 
@@ -70,7 +70,7 @@ Test cases were created to validate:
 * Error handling
 * End-to-end user flows
 
-## Defect Reporting
+#Defect Reporting
 
 Identified defects were documented with relevant information such as:
 
@@ -84,11 +84,11 @@ Identified defects were documented with relevant information such as:
 * Priority
 * Status
 
-## RTM
+#RTM
 
 The Requirement Traceability Matrix was created to ensure that the requirements are mapped with the corresponding test cases and that the required functionality is covered by testing.
 
-## Test Execution
+#Test Execution
 
 The prepared test cases were executed and the results were recorded with appropriate test statuses such as:
 
@@ -97,7 +97,7 @@ The prepared test cases were executed and the results were recorded with appropr
 * Blocked
 * Not Executed
 
-## Skills Demonstrated
+#Skills Demonstrated
 
 Through this project, I practiced:
 
@@ -115,28 +115,14 @@ Through this project, I practiced:
 * End-to-End Testing
 * Excel for Test Management
 
-## Project Structure
 
-```text
-01_Manual_Testing/
-│
-├── Project_Introduction.pdf
-├── Open Cart FRS.pdf
-├── Test Plan.pdf
-├── OpenCart Test Scenario and Test Cases.xlsx
-├── RTM Open Cart.xlsx
-├── OpenCart Test Execution.xlsx
-├── OpenCart-Bug Report.xlsx
-└── README.md
-```
-
-## Tools Used
+# Tools Used
 
 * Excel
 * Web Browser
 
 ---
 
-**Project:** OpenCart E-commerce Manual Testing
-**Role:** QA / Manual Tester
+Project:OpenCart E-commerce Manual Testing
+Role:QA / Manual Tester
 
