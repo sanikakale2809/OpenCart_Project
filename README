@@ -1,128 +1,65 @@
-# 01 Manual Testing – OpenCart Project
+01_Manual Testing
 
-#Project Overview
+#Overview
 
-This folder contains the **Manual Testing documentation and testing artifacts** created for the OpenCart E-commerce application.
+This folder contains the manual testing documentation and test artifacts for the **OpenCart E-commerce Project**.
 
-The project covers the complete manual testing process, starting from understanding the requirements and preparing the test plan to test case execution, defect reporting, and requirement traceability.
-
-#Application Under Test
-
-Application:OpenCart E-commerce Website
-Testing Type:Manual Testing
-
-#Testing Activities
-
-The following activities were performed as part of this project:
+#Activities
 
 * Requirement Analysis
 * Test Planning
-* Test Scenario Creation
-* Test Case Design
-* Requirement Traceability
-* Test Case Execution
-* Defect Identification and Reporting
-* Test Result Documentation
-
-#Testing Areas
-
-The test documentation covers important OpenCart functionalities such as:
-
-* User Registration
-* Login
-* Logout
-* Forgot Password
-* Product Search
-* Product Display
-* Product Compare
-* Wishlist
-* Shopping Cart
-* Checkout
-* Account Management
-* Address Book
-* Order History
-* Product Review
-* Contact Us
-* Return Request
-* Other e-commerce functionalities
-
-#Project Documents
-
-| File                                         | Description                                                        |
-| -------------------------------------------- | ------------------------------------------------------------------ |
-| `Project_Introduction.pdf`                   | Introduction and overview of the project                           |
-| `Open Cart FRS.pdf`                          | Functional Requirements Specification                              |
-| `Test Plan.pdf`                              | Test planning document defining the testing approach               |
-| `OpenCart Test Scenario and Test Cases.xlsx` | Test scenarios and detailed test cases                             |
-| `RTM Open Cart.xlsx`                         | Requirement Traceability Matrix mapping requirements to test cases |
-| `OpenCart Test Execution.xlsx`               | Test execution results and test status                             |
-| `OpenCart-Bug Report.xlsx`                   | Defects identified during testing                                  |
-
-#Test Case Design
-
-Test cases were created to validate:
-
-* Positive scenarios
-* Negative scenarios
-* Valid and invalid input
-* Functional requirements
-* Boundary conditions
-* Error handling
-* End-to-end user flows
-
-#Defect Reporting
-
-Identified defects were documented with relevant information such as:
-
-* Bug ID
-* Bug Title
-* Description
-* Steps to Reproduce
-* Expected Result
-* Actual Result
-* Severity
-* Priority
-* Status
-
-#RTM
-
-The Requirement Traceability Matrix was created to ensure that the requirements are mapped with the corresponding test cases and that the required functionality is covered by testing.
-
-#Test Execution
-
-The prepared test cases were executed and the results were recorded with appropriate test statuses such as:
-
-* Pass
-* Fail
-* Blocked
-* Not Executed
-
-#Skills Demonstrated
-
-Through this project, I practiced:
-
-* Manual Testing
-* Functional Testing
-* Test Scenario Creation
-* Test Case Design
-* Test Planning
+* Test Scenario & Test Case Design
+* RTM Preparation
 * Test Execution
 * Defect Reporting
-* Requirement Traceability
-* Positive & Negative Testing
-* Regression Testing
-* Retesting
-* End-to-End Testing
-* Excel for Test Management
+* Retesting & Regression Testing
 
+#Deliverables
 
-# Tools Used
+* FRS
+* Test Plan
+* Test Scenarios & Test Cases
+* RTM
+* Test Execution Report
+* Bug Report
 
-* Excel
+#Tools
+
+* Microsoft Excel
 * Web Browser
 
----
+02_Agile & Jira
 
-Project:OpenCart E-commerce Manual Testing
-Role:QA / Manual Tester
+#Overview
+
+This folder contains the **Agile and Jira project management activities** performed for the OpenCart QA Project.
+
+#Agile Approach
+
+The project follows an **Agile/Scrum approach** with work organized into epics, user stories, tasks, and sprints.
+
+#Jira Activities
+
+* Backlog Management
+* Epic & User Story Creation
+* Sprint Planning
+* Task Management
+* Priority Management
+* Defect Tracking
+* Test Management using Zephyr
+* Progress Reporting
+
+#Deliverables
+
+* Jira Backlog
+* Jira Work Item List
+* Jira Project Summary
+* Sprint Planning & Tracking
+
+#Tools
+
+* Jira
+* Zephyr Essential
+
+
 
