@@ -62,4 +62,124 @@ The project follows an **Agile/Scrum approach** with work organized into epics, 
 * Zephyr Essential
 
 
+# Database Testing – OpenCart
+
+# Project Overview
+
+This section covers **Database Testing** performed for the OpenCart application.
+
+The objective is to validate whether the data stored in the database is accurate, consistent, complete, and correctly synchronized with the application's UI.
+
+# Objectives
+
+* Validate data stored in database tables.
+* Verify UI data against database records.
+* Validate CRUD operations where applicable.
+* Verify data integrity and consistency.
+* Validate relationships between related tables.
+* Execute SQL queries for data verification.
+
+# Tools & Technologies
+
+* **Database:** MySQL
+* **Database Tool:** MySQL Workbench
+* **Application:** OpenCart
+* **Query Language:** SQL
+
+# Database Testing Scope
+
+Database testing covers important OpenCart functionalities such as:
+
+* Customer Registration
+* Customer Login
+* Product Search
+* Add to Cart
+* Wishlist
+* Shopping Cart
+* Checkout
+* Address Book
+* Order History
+* Product Reviews
+* Order Return
+* Reward Points
+* Transactions
+
+# Testing Activities
+
+## 1. Data Validation
+
+Verify that application data is correctly stored in the database.
+
+## 2. UI vs Database Validation
+
+Compare data displayed on the OpenCart UI with corresponding database records.
+
+## 3. CRUD Validation
+
+Validate Create, Read, Update, and Delete operations where applicable.
+
+## 4. Data Integrity
+
+Verify primary keys, foreign keys, relationships, and data consistency.
+
+## 5. SQL Query Validation
+
+Execute SQL queries to retrieve and verify application data.
+
+# Database Test Cases
+
+Approximately **40–50 database test cases** are created for different OpenCart functionalities.
+
+Each test case contains:
+
+* Test Case ID
+* Test Scenario
+* Test Description
+* SQL Query
+* Test Data
+* Expected Result
+* Actual Result
+* Status
+
+# Important Tables Tested
+
+Some of the OpenCart tables used for database validation include:
+
+* `oc_customer`
+* `oc_cart`
+* `oc_product`
+* `oc_product_description`
+* `oc_wishlist`
+* `oc_order`
+* `oc_order_product`
+* `oc_address`
+* `oc_review`
+
+# SQL Queries
+
+The `SQL_Queries.sql` file contains SQL queries used to:
+
+* Retrieve customer information
+* Verify product information
+* Validate cart data
+* Check wishlist records
+* Validate order details
+* Compare UI and database data
+* Verify relationships between tables
+
+# Files
+
+| File                 | Description                                                    |
+| -------------------- | -------------------------------------------------------------- |
+| `DB_Test_Plan.pdf`   | Database testing scope, objectives, approach and test strategy |
+| `DB_Test_Cases.xlsx` | Database test cases and execution results                      |
+| `SQL_Queries.sql`    | SQL queries used for database validation                       |
+| `README.md`          | Overview of database testing activities                        |
+
+# Outcome
+
+Database testing helps ensure that OpenCart stores and maintains application data correctly and that the data displayed on the UI is consistent with the database.
+
+
+
 
